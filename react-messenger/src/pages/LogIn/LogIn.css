@@ -1,7 +1,8 @@
 .form {
   border-radius: 30px;
   box-shadow: 0 0 15px gray;
-  width: 690px;
+  min-width: 690px;
+  width: auto;
   grid-column-start: 4;
   grid-column-end: 10;
   height: 450px;
