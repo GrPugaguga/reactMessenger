@@ -1,0 +1,21 @@
+.usersList {
+  padding: 15px;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 52px repeat(auto-fill, 58px);
+}
+.findUser {
+  line-height: 30px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.anyUser {
+  display: grid;
+  grid-template-columns: 49px 195px;
+  gap: 13px;
+  cursor: pointer;
+}

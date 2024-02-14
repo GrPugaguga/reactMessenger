@@ -1,0 +1,27 @@
+.changeWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4a4850;
+  width: 100%;
+}
+
+.changeButton {
+  border: 1px solid #4a4850;
+  color: #4a4850;
+  background-color: rgba(101, 43, 226, 0);
+  cursor: pointer;
+}
+.changeSpan {
+  width: 220px;
+  margin-bottom: 10px;
+}
+.changeh1 {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}

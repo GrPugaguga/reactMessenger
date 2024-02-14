@@ -1,0 +1,24 @@
+.chatMessage {
+  padding: 12px;
+  height: auto;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #e7e1f9;
+  border-radius: 5px;
+  max-width: 280px;
+  min-width: 150px;
+  position: relative;
+}
+.messageTime {
+  position: absolute;
+  color: #7f7e7f;
+  right: 5px;
+  bottom: 5px;
+  font-size: 8px;
+  line-height: 9px;
+  letter-spacing: 0em;
+  text-align: left;
+}
