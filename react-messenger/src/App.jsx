@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/login" element={<LogIn />} />
-          <Route path="" element={<Home />} />
+          <Route path="reactMessenger/login" element={<LogIn />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
