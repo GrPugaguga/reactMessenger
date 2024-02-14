@@ -72,7 +72,7 @@ const Chat = ({ companion, ...props }) => {
     <div className="chat">
       <div className="chatHeader">
         {!companion ? (
-          <div className="start">Выберете собеседника</div>
+          <div className="start">Выберите собеседника</div>
         ) : (
           companion?.name
         )}
